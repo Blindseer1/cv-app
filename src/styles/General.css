@@ -1,0 +1,40 @@
+.dropdown {
+  background-color: #001F3F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+
+
+}
+
+.arrow {
+  font-size: 1.5rem;
+  transform: rotate(90deg);
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+.sectionContent {
+
+  box-sizing: border-box;
+  width: max(45vh, 50%);
+}
+
+.content {
+  background-color: #3A6D8C;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7px;
+  padding: 1rem 3.5rem;
+}
+
+.content input {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: 3px solid white;
+}
